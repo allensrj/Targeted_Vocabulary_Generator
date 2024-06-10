@@ -34,6 +34,6 @@
 
 ## 如何运行
 
-把目标文档的pdf格式文件放进target文件夹；
+把目标文档的pdf格式文件放进target文件夹，解压一下oxford_dictionary文件夹里面的文件；
 
 在requirements里面把包装好，在config.py里面填写两个文件夹的路径，然后运行main.py即可。

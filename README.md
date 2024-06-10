@@ -12,11 +12,13 @@
 
 1. 我能找到的牛津词典是txt格式，处理后存在一些全大写英文缩写和词缀等解释，没有处理的非常细，后续匹配过程中不符合的自然匹不上。
 
-![image-20240610145031244](/Users/allensrj/Library/Application Support/typora-user-images/image-20240610145031244.png)
+<img width="620" alt="image-20240610145031244" src="https://github.com/allensrj/-app-/assets/46545989/2b2d0db4-bf66-4c70-8e66-ab0ae42909bd">
+
 
 2. 同样的涉及我目标领域的比如像sdtmIG等文档，里面也包含一些不是英文单词的东西，同样做了简单的处理，但也没有处理的非常细，后续匹配过程中不符合的自然匹不上。
 
-![image-20240610145302600](/Users/allensrj/Library/Application Support/typora-user-images/image-20240610145302600.png)
+<img width="764" alt="image-20240610145302600" src="https://github.com/allensrj/-app-/assets/46545989/568e9000-8274-4942-9775-090361b2671a">
+
 
 ## 项目架构
 

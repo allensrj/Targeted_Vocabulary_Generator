@@ -8,10 +8,13 @@
 # Description: This script is used to extract English words from documents and compare with the Oxford Dictionary.
 # ==============================================================================
 
+from pathlib import Path
 
 from functions import get_all_txt_files, get_all_pdf_files, extract_words_from_niujin, extract_text_from_pdf, process_text, check_target_words_in_oxford
-from config import oxford_dictionary_path, target_path
 
+working_dir = Path().cwd()
+oxford_dictionary_path = working_dir / "oxford_dictionary"
+target_path = working_dir / "target"
 
 def extract_words(oxford_dictionary_path, target_path):
     """
